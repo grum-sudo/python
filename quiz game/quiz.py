@@ -11,3 +11,4 @@ answers = ()
 guesses = []
 score = 0
 question_num = 0
+#i dont know why the fuck i have vscode open bruh
