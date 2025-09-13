@@ -8,6 +8,22 @@ menu = {"pizza": 3.00,
         "lemonade": 4.50}
 cart = []   
 total = 0
-
+print("--------- MENU --------")
 for key, value in menu.items():
     print(f"{key:10}: ${value:.2f}")
+print("-----------------------")#looks so ahh AI making me say amazing
+
+while True:
+    food = input ("what u want eat? (q to quit) ").lower()
+    if food == "q":
+        break
+    elif menu.get(food) is not None:
+        cart.append(food)
+
+print("-------- YOUR ORDER -------")
+for food in cart:
+    total += menu.get(food)
+    print(food, end=" ")
+
+print()
+print(f"total is ${total:.2f}")
