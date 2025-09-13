@@ -13,7 +13,22 @@ capitals = {"USA" : "washington D.C",
 #else:
 #    print("that capital does not exist")
 
-capitals.update({"germany": "berlin"})
+# capitals.update({"germany": "berlin"})
+# capitals.update({"USA": "detroit"})
+# capitals.pop("china")
+# capitals.popitem()  
 
-print (capitals)
+# keys = capitals.keys()
+# for key in capitals.keys():
+#    print(key)
 
+# values = capitals.values()
+# for value in capitals.values():
+#    print(value)
+
+#items = capitals.items()
+#print(items)
+
+for key, value in capitals.items():
+    print(f"{key}: {value}")
+    
