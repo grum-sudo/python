@@ -55,3 +55,13 @@ for die in dice:
 
 print(f"total: {total}")
 #● ┌ ─ ─ ┐ │ └
+
+
+
+
+
+
+
+
+
+#67
