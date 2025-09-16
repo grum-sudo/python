@@ -27,3 +27,4 @@ for food in cart:
 
 print()
 print(f"total is ${total:.2f}")
+#nvim test2

@@ -58,5 +58,5 @@ print(f"total: {total}")
 
 
 
-#nvim 3mak wla
+
 #67
